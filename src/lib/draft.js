@@ -1,4 +1,3 @@
-```javascript
 import { writable } from 'svelte/store';
 
 // Initialize the draft with an empty array
@@ -40,4 +39,3 @@ export function getDraft() {
 }
 
 export default draft;
-```
