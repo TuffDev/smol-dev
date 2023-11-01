@@ -1,4 +1,3 @@
-```javascript
 let history = [];
 let undoHistory = [];
 
@@ -20,4 +19,3 @@ export function recordAction(action) {
     history.push(action);
     undoHistory = [];
 }
-```
