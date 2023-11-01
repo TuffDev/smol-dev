@@ -1,4 +1,3 @@
-```javascript
 import { writable } from 'svelte/store';
 
 // Define the initial state of adjustments
@@ -33,4 +32,3 @@ export const adjustElement = (blockId, elementId, properties) => {
     return state;
   });
 };
-```
