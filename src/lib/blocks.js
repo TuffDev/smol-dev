@@ -1,4 +1,3 @@
-```javascript
 import { writable } from 'svelte/store';
 import { BlockSchema } from '../db/blocks.js';
 
@@ -31,4 +30,3 @@ export async function loadBlocks() {
   const data = await response.json();
   blocks.set(data.map(block => validateBlock(block) ? block : null).filter(block => block));
 }
-```
